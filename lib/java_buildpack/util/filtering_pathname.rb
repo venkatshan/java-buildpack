@@ -147,8 +147,7 @@ module JavaBuildpack
 
       private
 
-      MUTATORS = %i[chmod chown delete lchmod lchown make_link make_symlink mkdir mkpath rename rmdir rmtree taint
-                    unlink untaint].to_set.freeze
+      MUTATORS = %i[chmod chown delete lchmod lchown make_link make_symlink mkdir mkpath rename rmdir rmtree taint unlink untaint].to_set.freeze
 
       private_constant :MUTATORS
 
